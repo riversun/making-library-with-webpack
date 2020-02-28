@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Use library directly with &lt;script&gt; tag</title>
+</head>
+<body>
+<h3>(3-2)Use library directly with &lt;script&gt; tag</h3>
+<script src="../mylib.min.js"></script>
+<script>
+
+    //replace console.log with document.write to make the behavior visible
+    console.log = (m) => {
+        document.write(`${m}<br>`);
+    };
+
+    //(3-2) for browser
+    const tom = new GreatFamily.Tom();
+    const jack = new GreatFamily.Jack();
+
+    console.log(tom.sayHello());
+    console.log(jack.sayHello());
+
+
+</script>
+</body>
+</html>
