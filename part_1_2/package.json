@@ -1,6 +1,6 @@
 {
   "name": "@riversun/making-library-with-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "making library with webpack example (1-2)",
   "main": "family.min.js",
   "scripts": {
@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/riversun/making-library-with-webpack#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2",
     "npm-run-all": "^4.1.5",
-    "webpack": "^4.44.2",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2"
   }
 }
